@@ -37,7 +37,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <Link to='/login' className="inline-flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
+                <Link to='/login' className="inline-flex items-center px-6 py-3 font-bold bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
                     login
                 </Link>
             </div>
