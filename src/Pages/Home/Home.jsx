@@ -24,7 +24,7 @@ const Home = () => {
 
                 {/* news Container */}
                 <div className="lg:col-span-2 p-4 ">
-                    <h2 className="text-xl font-semibold">Dragon News Home</h2>
+                    <h2 className="text-xl font-semibold">Dragon News </h2>
                     {
                         news.map(aNews => <NewsCard key={aNews._id} news={aNews}></NewsCard>)
                     }

@@ -10,7 +10,7 @@ const NewsCard = ({ news }) => {
             {/* card */}
             <div className='border rounded-xl  mt-5'>
                 {/* author details */}
-                <div className='bg-[#E7E7E7] rounded-xl px-10 py-4  w-full flex justify-between items-center'>
+                <div className='bg-[#E7E7E7] rounded-t-xl px-10 py-4  w-full flex justify-between items-center'>
                     <div className='flex gap-3 items-center'>
                         <img className="w-[40px] h-[40px] rounded-full" src={author.img} alt="" />
                         <div className='flex flex-col'>
